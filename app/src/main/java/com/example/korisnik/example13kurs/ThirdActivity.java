@@ -2,7 +2,7 @@ package com.example.korisnik.example13kurs;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.Toast;
+import android.widget.Toast;//
 
 /**
  * Created by Korisnik on 10.5.2017..
