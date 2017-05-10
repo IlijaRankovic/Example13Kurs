@@ -3,4 +3,5 @@
     <string name="second_activity">Start an Activity</string>
     <string name="open_browser">Open Google Browser</string>
     <string name="third_activity">Satrt an Third Activity</string>
+    <string name="open_camera">Open Camera</string>
 </resources>
