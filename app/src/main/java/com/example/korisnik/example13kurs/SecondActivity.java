@@ -1,7 +1,9 @@
 package com.example.korisnik.example13kurs;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 /**
@@ -64,5 +66,11 @@ public class SecondActivity extends Activity {
 
         Toast toast = Toast.makeText(getBaseContext(), "SecondActivity.onDestroy", Toast.LENGTH_SHORT);
         toast.show();
+    }
+
+    public void btnStartActivityClicked(View view){
+
+        Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
+        startActivity(intent);
     }
 }
