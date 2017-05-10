@@ -24,6 +24,11 @@
             android:label="@string/second_activity">
         </activity>
 
+        <activity
+            android:name="com.example.korisnik.example13kurs.ThirdActivity"
+            android:label="@string/third_activity">
+        </activity>
+
     </application>
 
 </manifest>
