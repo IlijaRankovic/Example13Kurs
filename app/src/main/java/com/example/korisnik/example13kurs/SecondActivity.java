@@ -14,8 +14,10 @@ import android.widget.Toast;
 public class SecondActivity extends Activity {
 
     @Override
-    protected void onCreate(Bundle savedInstamceState){
-        super.onCreate(savedInstamceState);
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.activity_second);
 
         Toast toast = Toast.makeText(getBaseContext(), "SecondActivity.onCreate", Toast.LENGTH_SHORT);
         toast.show();
