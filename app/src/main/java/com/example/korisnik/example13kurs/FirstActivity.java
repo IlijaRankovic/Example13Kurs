@@ -2,6 +2,7 @@ package com.example.korisnik.example13kurs;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -74,5 +75,11 @@ public class FirstActivity extends Activity {
 
         Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
         startActivity(intent);
+    }
+
+    public void btnOpenBrowserClicked(View view){
+
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.rs"));
+        startActivity(i);
     }
 }
